@@ -84,7 +84,12 @@ Example:
       | usern    |     1234 |      | john@email.com | 1-January-1987 | name     |
       | usern    |     1234 | John |                | 1-January-1987 | email    |
 ```
+Ps: A complete list of scenarios can be found in the feature files under src/test/resources package.
 
+## Reporting
+
+A reporting with the results will be automatically generated once the tests are complete.
+They are created using Maven Cucumber Reporting and are available at target\cucumber-html-reports folder.
 
 ## Built With
 
