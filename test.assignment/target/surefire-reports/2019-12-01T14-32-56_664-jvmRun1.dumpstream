@@ -1,0 +1,269 @@
+# Created at 2019-12-01T14:33:09.351
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2019-12-01T14:33:11.115
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:11.118
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters username admin(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:12.400
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters username admin(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:12.402
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters password hero(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:12.553
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters password hero(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:12.555
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:12.607
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:12.612
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user should see a message Logged in(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:12.760
+Unexpected IOException with stream: Message found when loggin in: Logged in as Amazing Admin (a.admin@wearewaes.com)! log out
+
+
+# Created at 2019-12-01T14:33:12.765
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user should see a message Logged in(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:14.154
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:14.157
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:14.160
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:21.381
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:21.383
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters username dev(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:22.062
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters username dev(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:22.064
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters password wizard(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:22.211
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters password wizard(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:22.213
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:22.289
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:22.292
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user should see a message Logged in(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:22.369
+Unexpected IOException with stream: Message found when loggin in: Logged in as Zuper Dooper Dev (zd.dev@wearewaes.com)! log out
+
+
+# Created at 2019-12-01T14:33:22.371
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user should see a message Logged in(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:24.012
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:24.014
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:24.016
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:32.374
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:32.376
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters username tester(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:34.109
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters username tester(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:34.111
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters password maniac(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:34.273
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters password maniac(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:34.275
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:34.319
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:34.321
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user should see a message Logged in(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:34.414
+Unexpected IOException with stream: Message found when loggin in: Logged in as Al Skept-Cal Tester (as.tester@wearewaes.com)! log out
+
+
+# Created at 2019-12-01T14:33:34.416
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user should see a message Logged in(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:35.602
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:35.605
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:35.607
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:43.690
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:43.691
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters username admin(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:44.470
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters username admin(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:44.473
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters password wrong(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:44.692
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters password wrong(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:44.696
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:44.818
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:44.823
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user should see a message Wrong credentials(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:45.314
+Unexpected IOException with stream: Message found when loggin in: Wrong credentials. You can do it, try again!
+
+
+# Created at 2019-12-01T14:33:45.317
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user should see a message Wrong credentials(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:46.810
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:46.814
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:46.817
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:54.734
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:54.735
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters username dev(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:55.429
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters username dev(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:55.432
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user enters password (User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:55.573
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user enters password (User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:55.575
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:55.622
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user clicks login button(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:55.625
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user should see a message To get the full hero experience\002C you\2019ll need to log in(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:55.750
+Unexpected IOException with stream: Message found when loggin in: To get the full hero experience, you’ll need to log in.
+
+
+# Created at 2019-12-01T14:33:55.752
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,user should see a message To get the full hero experience\002C you\2019ll need to log in(User shall be able to login if password corresponds to the username),null,null,null
+
+
+# Created at 2019-12-01T14:33:57.163
+Unexpected IOException: 6,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:57.166
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,User shall be able to login if password corresponds to the username,null,null,null
+
+
+# Created at 2019-12-01T14:33:57.168
+Unexpected IOException: 5,1,User shall be able to login if password corresponds to the username,user is on the login page(User shall be able to login if password corresponds to the username),null,null,null
+
+

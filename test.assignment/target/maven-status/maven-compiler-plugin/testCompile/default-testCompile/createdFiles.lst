@@ -1,0 +1,6 @@
+testRunner\SignupTestRunner.class
+stepDefinitions\AuthorizationTest.class
+stepDefinitions\SignupTest.class
+testRunner\AuthorizationTestRunner.class
+testRunner\LoginTestRunner.class
+stepDefinitions\LoginTest.class

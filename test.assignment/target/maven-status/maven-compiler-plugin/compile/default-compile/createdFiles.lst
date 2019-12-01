@@ -1,0 +1,6 @@
+pages\SignupPageFactory.class
+pages\DetailsPageFactory.class
+utils\Driver.class
+pages\HeaderPageFactory.class
+pages\ProfilePageFactory.class
+pages\LoginPageFactory.class
