@@ -18,12 +18,12 @@ Currently the tests can be executed macthing feature scenarios with their implem
 ## 3- Increase coverage
 
 ### 3.1 Implement Authorization Tests
-- Increase the scenarios on Authorization.feature and implement their tests.
-- Improve Profile class in order to be able to validate users authorization feature.
+- Increase the scenarios on Authorization.feature and implement their tests
+- Improve Profile class in order to be able to validate users authorization feature
 
 ### 3.2 Implement Validation on Details Page
-- Implement page class for Details page under user profile in order to be able to test it properly.
+- Implement page class for Details page under user profile in order to be able to test it properly
 - Add scenarios to cover if sign up data entered matches the data on user details page
 
 ## 4- Jenkins Integration
-Make this project available to be triggered and handled by an automation server
+Make this project available to be triggered and handled by an automation server which also allows the usage of containers for parallelization.
