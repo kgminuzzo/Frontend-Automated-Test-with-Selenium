@@ -34,14 +34,14 @@ Select Run As
 Select Maven Install
 ```
 
-Installing though command line
+Installing through command line
 ```
 mvn clean install
 ```
 
 ## Running the tests
 
-The test can be run thought Eclipse interface or from command line in case Maven is configured as a system variable
+The test can be run through Eclipse interface or from command line in case Maven is configured as a system variable
 
 Run the tests through Eclipse
 ```
@@ -52,7 +52,7 @@ Enter Goal as "verify"
 Click Run
 ```
 
-Run the test though command line
+Run the test through command line
 ```
 mvn verify
 ```
@@ -60,29 +60,21 @@ mvn verify
 ### Feature tests
 
 Currently the project supports the automted testing of two different features.
-#### The first feature is the login and its tests assure:
-- The user can loggin with the correct credentials 
-- The user cannot loggin if any data informed is wrong or missing
-#### The second feature is the sign up and its tests assure:
+#### The first feature is the login and its tests ensure:
+- The user can log in with the correct credentials 
+- The user cannot log in when data informed is wrong or missing
+#### The second feature is the sign up and its tests ensure:
 - The user can sign up if correct data is informed
-- The user cannot sign up if any required data is missing
-- The user cannot sign up if any data informed is incorrect
-
+- The user cannot sign up when required data is wrong or missing
 ```
 Example:
-  #Negative scenario: try to register without informing required fields
-  Scenario Outline: User shall inform all required fields to create a profile
+  Scenario: User shall be able to sign up when required data is correctly informed
     Given user is on the signup page
-    When user enters the data <username>,<password>,<name>,<email> and <date_of_birth>
+    When user enters the data
+      | username | password | name | email          | date of birth  |
+      | user1    |     1234 | John | john@email.com | 1-January-1987 |
     And user clicks submit button
-    Then user should see a hint informing that the field <field> should be populated
-
-    Examples: 
-      | username | password | name | email          | date_of_birth  | field    |
-      |          |     1234 | John | john@email.com | 1-January-1987 | username |
-      | usern    |          | John | john@email.com | 1-January-1987 | password |
-      | usern    |     1234 |      | john@email.com | 1-January-1987 | name     |
-      | usern    |     1234 | John |                | 1-January-1987 | email    |
+    Then user should see a welcome message Welcome to your new profile page
 ```
 Ps: A complete list of scenarios can be found in the feature files under src/test/resources package.
 
