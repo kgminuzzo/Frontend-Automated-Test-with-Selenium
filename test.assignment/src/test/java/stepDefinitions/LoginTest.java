@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.openqa.selenium.WebDriver;
 
 import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -17,10 +18,14 @@ public class LoginTest {
 
 	private WebDriver driver;
 	
+	@Before("@Login")
+	public void before() {
+		driver = new Driver().getDriver();
+		new LoginPageFactory(driver).navigateToHomePage();
+	}
+	
 	@Given("^user is on the login page$")
 	public void user_is_on_the_login_page() {
-		driver = new Driver().getDriver();
-		driver.get("https://waesworks.bitbucket.io/");
 		new HeaderPageFactory(driver).clickLogin();
 	}
 	
@@ -42,7 +47,7 @@ public class LoginTest {
 	@Then("^user should see a message (.*)$")
 	public void user_should_see_a_message(String message) {
 		String messageFound = new HeaderPageFactory(driver).statusText();
-		System.out.println("Message found when loggin in: "+messageFound);
+		System.out.println("Message found when logging in: "+messageFound);
 		assertTrue(messageFound.startsWith(message));
 	}
 	

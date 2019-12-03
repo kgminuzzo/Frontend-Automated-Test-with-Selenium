@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testRunner.SignupTestRunner" time="200.264" tests="70" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\karina_minuzzo\eclipse-workspace\test.assignment\target\test-classes;C:\Users\karina_minuzzo\eclipse-workspace\test.assignment\target\classes;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\karina_minuzzo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\karina_minuzzo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.1.0\junit-jupiter-api-5.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\junit\platform\junit-platform-commons\1.1.0\junit-platform-commons-1.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\karina_minuzzo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\karina_minuzzo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\karina_minuzzo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\karina_minuzzo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\karina_minuzzo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\KARINA~1\AppData\Local\Temp\surefire4358270400232879393\surefirebooter2168255057813417107.jar C:\Users\karina_minuzzo\AppData\Local\Temp\surefire4358270400232879393 2019-12-01T15-33-28_771-jvmRun1 surefire10756353519449812440tmp surefire_0279364966905266188tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\karina_minuzzo\eclipse-workspace\test.assignment\target\test-classes;C:\Users\karina_minuzzo\eclipse-workspace\test.assignment\target\classes;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\karina_minuzzo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\karina_minuzzo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.1.0\junit-jupiter-api-5.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\junit\platform\junit-platform-commons\1.1.0\junit-platform-commons-1.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\karina_minuzzo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\karina_minuzzo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\karina_minuzzo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\karina_minuzzo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\karina_minuzzo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\karina_minuzzo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\karina_minuzzo\eclipse-workspace\test.assignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\KARINA~1\AppData\Local\Temp\surefire4358270400232879393\surefirebooter2168255057813417107.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.3+7"/>
+    <property name="user.name" value="Karina_Minuzzo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\karina_minuzzo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\KARINA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.3"/>
+    <property name="user.dir" value="C:\Users\karina_minuzzo\eclipse-workspace\test.assignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-hotspot/bin/server;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-hotspot/bin;C:\app\oracle\product\12.1.0\client_1;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\Dell Data Protection\Encryption\;C:\Program Files (x86)\Dell Technologies\LaunchClient\;\bin;C:\Program Files\1E\NomadBranch\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\karina_minuzzo\AppData\Local\Microsoft\WindowsApps;;C:\Users\karina_minuzzo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\karina_minuzzo\AppData\Roaming\npm;C:\WINDOWS\system32;;."/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.3+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="user is on the signup page" classname="User shall be able to sign up if required data is correctly informed" time="7.764"/>
+  <testcase name="user enters the data" classname="User shall be able to sign up if required data is correctly informed" time="1.67"/>
+  <testcase name="user clicks submit button" classname="User shall be able to sign up if required data is correctly informed" time="0.077"/>
+  <testcase name="user should see a welcome message Welcome to your new profile page" classname="User shall be able to sign up if required data is correctly informed" time="0.125"/>
+  <testcase name="User shall be able to sign up if required data is correctly informed" classname="User shall be able to sign up if required data is correctly informed" time="1.641"/>
+  <testcase name="user is on the signup page" classname="User shall not be able to sign up if username already exists" time="7.517"/>
+  <testcase name="user enters the data" classname="User shall not be able to sign up if username already exists" time="1.851"/>
+  <testcase name="user clicks submit button" classname="User shall not be able to sign up if username already exists" time="0.148"/>
+  <testcase name="user should see a warning message This hero is already registered. Try another one!" classname="User shall not be able to sign up if username already exists" time="0.088"/>
+  <testcase name="User shall not be able to sign up if username already exists" classname="User shall not be able to sign up if username already exists" time="1.477"/>
+  <testcase name="user is on the signup page" classname="User shall not be able to sign up if email is already registered" time="7.095"/>
+  <testcase name="user enters the data" classname="User shall not be able to sign up if email is already registered" time="1.774"/>
+  <testcase name="user clicks submit button" classname="User shall not be able to sign up if email is already registered" time="0.054"/>
+  <testcase name="user should see a warning message This hero is already registered. Try another one!" classname="User shall not be able to sign up if email is already registered" time="0.112"/>
+  <testcase name="User shall not be able to sign up if email is already registered" classname="User shall not be able to sign up if email is already registered" time="1.627"/>
+  <testcase name="user is on the signup page" classname="User shall inform all required fields to create a profile" time="7.263"/>
+  <testcase name="user is on the signup page" classname="User shall inform all required fields to create a profile" time="7.162"/>
+  <testcase name="user is on the signup page" classname="User shall inform all required fields to create a profile" time="7.056"/>
+  <testcase name="user is on the signup page" classname="User shall inform all required fields to create a profile" time="8.836"/>
+  <testcase name="user enters the data ,1234,John,john@email.com and 1-January-1987" classname="User shall inform all required fields to create a profile" time="1.575"/>
+  <testcase name="user clicks submit button" classname="User shall inform all required fields to create a profile" time="0.059"/>
+  <testcase name="user clicks submit button" classname="User shall inform all required fields to create a profile" time="0.071"/>
+  <testcase name="user clicks submit button" classname="User shall inform all required fields to create a profile" time="0.042"/>
+  <testcase name="user clicks submit button" classname="User shall inform all required fields to create a profile" time="0.058"/>
+  <testcase name="user should see a hint informing that the field username should be populated" classname="User shall inform all required fields to create a profile" time="0.096"/>
+  <testcase name="User shall inform all required fields to create a profile" classname="User shall inform all required fields to create a profile" time="1.681"/>
+  <testcase name="User shall inform all required fields to create a profile" classname="User shall inform all required fields to create a profile" time="1.92"/>
+  <testcase name="User shall inform all required fields to create a profile" classname="User shall inform all required fields to create a profile" time="1.415"/>
+  <testcase name="User shall inform all required fields to create a profile" classname="User shall inform all required fields to create a profile" time="2.239"/>
+  <testcase name="user enters the data usern,,John,john@email.com and 1-January-1987" classname="User shall inform all required fields to create a profile" time="1.773"/>
+  <testcase name="user should see a hint informing that the field password should be populated" classname="User shall inform all required fields to create a profile" time="0.12"/>
+  <testcase name="user enters the data usern,1234,,john@email.com and 1-January-1987" classname="User shall inform all required fields to create a profile" time="1.979"/>
+  <testcase name="user should see a hint informing that the field name should be populated" classname="User shall inform all required fields to create a profile" time="0.078"/>
+  <testcase name="user enters the data usern,1234,John, and 1-January-1987" classname="User shall inform all required fields to create a profile" time="1.629"/>
+  <testcase name="user should see a hint informing that the field email should be populated" classname="User shall inform all required fields to create a profile" time="0.12"/>
+  <testcase name="user is on the signup page" classname="User shall inform a valid date to sign up" time="8.103"/>
+  <testcase name="user is on the signup page" classname="User shall inform a valid date to sign up" time="7.026"/>
+  <testcase name="user is on the signup page" classname="User shall inform a valid date to sign up" time="6.817"/>
+  <testcase name="user enters the data mary,pass123,Mary Smith,mary@email.com and 30-February-1990" classname="User shall inform a valid date to sign up" time="3.39"/>
+  <testcase name="user clicks submit button" classname="User shall inform a valid date to sign up" time="0.086"/>
+  <testcase name="user clicks submit button" classname="User shall inform a valid date to sign up" time="0.097"/>
+  <testcase name="user clicks submit button" classname="User shall inform a valid date to sign up" time="0.036"/>
+  <testcase name="user should not see a welcome message Welcome to your new profile page" classname="User shall inform a valid date to sign up" time="10.537"/>
+  <testcase name="user should not see a welcome message Welcome to your new profile page" classname="User shall inform a valid date to sign up" time="0.122">
+    <failure message="Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown.
+</failure>
+  </testcase>
+  <testcase name="user should not see a welcome message Welcome to your new profile page" classname="User shall inform a valid date to sign up" time="0.101">
+    <failure message="Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown.
+</failure>
+  </testcase>
+  <testcase name="User shall inform a valid date to sign up" classname="User shall inform a valid date to sign up" time="11.902"/>
+  <testcase name="User shall inform a valid date to sign up" classname="User shall inform a valid date to sign up" time="1.651">
+    <failure message="Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown.
+</failure>
+  </testcase>
+  <testcase name="User shall inform a valid date to sign up" classname="User shall inform a valid date to sign up" time="1.46">
+    <failure message="Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown.
+</failure>
+  </testcase>
+  <testcase name="user enters the data mary,pass123,Mary Smith,mary@email.com and 31-June-2000" classname="User shall inform a valid date to sign up" time="2.099"/>
+  <testcase name="user enters the data mary,pass123,Mary Smith,mary@email.com and 31-December-2019" classname="User shall inform a valid date to sign up" time="1.777"/>
+  <testcase name="user is on the signup page" classname="User shall inform a valid email to sign up" time="7.135"/>
+  <testcase name="user is on the signup page" classname="User shall inform a valid email to sign up" time="7.456"/>
+  <testcase name="user is on the signup page" classname="User shall inform a valid email to sign up" time="7.633"/>
+  <testcase name="user is on the signup page" classname="User shall inform a valid email to sign up" time="7.349"/>
+  <testcase name="user enters the data ggm1,pass123,Gladis,ggm1@email and 6-March-1964" classname="User shall inform a valid email to sign up" time="2.243"/>
+  <testcase name="user clicks submit button" classname="User shall inform a valid email to sign up" time="0.07"/>
+  <testcase name="user clicks submit button" classname="User shall inform a valid email to sign up" time="0.125"/>
+  <testcase name="user clicks submit button" classname="User shall inform a valid email to sign up" time="0.055"/>
+  <testcase name="user clicks submit button" classname="User shall inform a valid email to sign up" time="0.077"/>
+  <testcase name="user should not see a welcome message Welcome to your new profile page" classname="User shall inform a valid email to sign up" time="0.104">
+    <failure message="Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown.
+</failure>
+  </testcase>
+  <testcase name="user should not see a welcome message Welcome to your new profile page" classname="User shall inform a valid email to sign up" time="10.397"/>
+  <testcase name="user should not see a welcome message Welcome to your new profile page" classname="User shall inform a valid email to sign up" time="10.4"/>
+  <testcase name="user should not see a welcome message Welcome to your new profile page" classname="User shall inform a valid email to sign up" time="10.532"/>
+  <testcase name="User shall inform a valid email to sign up" classname="User shall inform a valid email to sign up" time="1.806">
+    <failure message="Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown.
+</failure>
+  </testcase>
+  <testcase name="User shall inform a valid email to sign up" classname="User shall inform a valid email to sign up" time="12.66"/>
+  <testcase name="User shall inform a valid email to sign up" classname="User shall inform a valid email to sign up" time="12.001"/>
+  <testcase name="User shall inform a valid email to sign up" classname="User shall inform a valid email to sign up" time="13.255"/>
+  <testcase name="user enters the data ggm1,pass123,Gladis,ggm1.email.com and 6-March-1964" classname="User shall inform a valid email to sign up" time="1.795"/>
+  <testcase name="user enters the data ggm1,pass123,Gladis,@ggm1email.com and 6-March-1964" classname="User shall inform a valid email to sign up" time="1.916"/>
+  <testcase name="user enters the data ggm1,pass123,Gladis,ggm1@email. and 6-March-1964" classname="User shall inform a valid email to sign up" time="2.525"/>
+</testsuite>

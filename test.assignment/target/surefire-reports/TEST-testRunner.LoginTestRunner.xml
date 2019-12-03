@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testRunner.LoginTestRunner" time="68.724" tests="36" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\karina_minuzzo\eclipse-workspace\test.assignment\target\test-classes;C:\Users\karina_minuzzo\eclipse-workspace\test.assignment\target\classes;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\karina_minuzzo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\karina_minuzzo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.1.0\junit-jupiter-api-5.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\junit\platform\junit-platform-commons\1.1.0\junit-platform-commons-1.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\karina_minuzzo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\karina_minuzzo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\karina_minuzzo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\karina_minuzzo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\karina_minuzzo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\KARINA~1\AppData\Local\Temp\surefire4358270400232879393\surefirebooter2168255057813417107.jar C:\Users\karina_minuzzo\AppData\Local\Temp\surefire4358270400232879393 2019-12-01T15-33-28_771-jvmRun1 surefire10756353519449812440tmp surefire_0279364966905266188tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\karina_minuzzo\eclipse-workspace\test.assignment\target\test-classes;C:\Users\karina_minuzzo\eclipse-workspace\test.assignment\target\classes;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\karina_minuzzo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\karina_minuzzo\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\karina_minuzzo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.1.0\junit-jupiter-api-5.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\junit\platform\junit-platform-commons\1.1.0\junit-platform-commons-1.1.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\karina_minuzzo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\karina_minuzzo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\karina_minuzzo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\karina_minuzzo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\karina_minuzzo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\karina_minuzzo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\karina_minuzzo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\karina_minuzzo\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\karina_minuzzo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\karina_minuzzo\eclipse-workspace\test.assignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\KARINA~1\AppData\Local\Temp\surefire4358270400232879393\surefirebooter2168255057813417107.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.3+7"/>
+    <property name="user.name" value="Karina_Minuzzo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\karina_minuzzo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\KARINA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.3"/>
+    <property name="user.dir" value="C:\Users\karina_minuzzo\eclipse-workspace\test.assignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-hotspot/bin/server;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-hotspot/bin;C:\app\oracle\product\12.1.0\client_1;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\Dell Data Protection\Encryption\;C:\Program Files (x86)\Dell Technologies\LaunchClient\;\bin;C:\Program Files\1E\NomadBranch\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\karina_minuzzo\AppData\Local\Microsoft\WindowsApps;;C:\Users\karina_minuzzo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\karina_minuzzo\AppData\Roaming\npm;C:\WINDOWS\system32;;."/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.3+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="user is on the login page" classname="User shall be able to login if password corresponds to the username" time="9.876"/>
+  <testcase name="user is on the login page" classname="User shall be able to login if password corresponds to the username" time="7.942"/>
+  <testcase name="user is on the login page" classname="User shall be able to login if password corresponds to the username" time="6.955"/>
+  <testcase name="user is on the login page" classname="User shall be able to login if password corresponds to the username" time="7.589"/>
+  <testcase name="user is on the login page" classname="User shall be able to login if password corresponds to the username" time="7.569"/>
+  <testcase name="user is on the login page" classname="User shall be able to login if password corresponds to the username" time="7.77"/>
+  <testcase name="user enters username admin" classname="User shall be able to login if password corresponds to the username" time="0.909"/>
+  <testcase name="user enters username admin" classname="User shall be able to login if password corresponds to the username" time="0.717"/>
+  <testcase name="user enters password hero" classname="User shall be able to login if password corresponds to the username" time="0.274"/>
+  <testcase name="user clicks login button" classname="User shall be able to login if password corresponds to the username" time="0.119"/>
+  <testcase name="user clicks login button" classname="User shall be able to login if password corresponds to the username" time="0.135"/>
+  <testcase name="user clicks login button" classname="User shall be able to login if password corresponds to the username" time="0.087"/>
+  <testcase name="user clicks login button" classname="User shall be able to login if password corresponds to the username" time="0.123"/>
+  <testcase name="user clicks login button" classname="User shall be able to login if password corresponds to the username" time="0.035"/>
+  <testcase name="user clicks login button" classname="User shall be able to login if password corresponds to the username" time="0.071"/>
+  <testcase name="user should see a message Logged in" classname="User shall be able to login if password corresponds to the username" time="0.192"/>
+  <testcase name="user should see a message Logged in" classname="User shall be able to login if password corresponds to the username" time="0.141"/>
+  <testcase name="user should see a message Logged in" classname="User shall be able to login if password corresponds to the username" time="0.112"/>
+  <testcase name="User shall be able to login if password corresponds to the username" classname="User shall be able to login if password corresponds to the username" time="2.204"/>
+  <testcase name="User shall be able to login if password corresponds to the username" classname="User shall be able to login if password corresponds to the username" time="2.081"/>
+  <testcase name="User shall be able to login if password corresponds to the username" classname="User shall be able to login if password corresponds to the username" time="1.598"/>
+  <testcase name="User shall be able to login if password corresponds to the username" classname="User shall be able to login if password corresponds to the username" time="1.971"/>
+  <testcase name="User shall be able to login if password corresponds to the username" classname="User shall be able to login if password corresponds to the username" time="1.331"/>
+  <testcase name="User shall be able to login if password corresponds to the username" classname="User shall be able to login if password corresponds to the username" time="2.596"/>
+  <testcase name="user enters username dev" classname="User shall be able to login if password corresponds to the username" time="1.329"/>
+  <testcase name="user enters username dev" classname="User shall be able to login if password corresponds to the username" time="0.686"/>
+  <testcase name="user enters password wizard" classname="User shall be able to login if password corresponds to the username" time="0.339"/>
+  <testcase name="user enters username tester" classname="User shall be able to login if password corresponds to the username" time="0.745"/>
+  <testcase name="user enters password maniac" classname="User shall be able to login if password corresponds to the username" time="0.163"/>
+  <testcase name="user enters password maniac" classname="User shall be able to login if password corresponds to the username" time="0.336"/>
+  <testcase name="user enters password wrong" classname="User shall be able to login if password corresponds to the username" time="0.216"/>
+  <testcase name="user should see a message Wrong credentials" classname="User shall be able to login if password corresponds to the username" time="0.306"/>
+  <testcase name="user enters password " classname="User shall be able to login if password corresponds to the username" time="0.109"/>
+  <testcase name="user should see a message To get the full hero experience, you’ll need to log in" classname="User shall be able to login if password corresponds to the username" time="0.091"/>
+  <testcase name="user should see a message To get the full hero experience, you’ll need to log in" classname="User shall be able to login if password corresponds to the username" time="0.159"/>
+  <testcase name="user enters username " classname="User shall be able to login if password corresponds to the username" time="1.536"/>
+</testsuite>

@@ -1,0 +1,1461 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-01T17:34:39.466Z",
+        "line": 5,
+        "name": "User shall be able to sign up if required data is correctly informed",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-be-able-to-sign-up-if-required-data-is-correctly-informed",
+        "after": [
+          {
+            "result": {
+              "duration": 1515076100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7764094500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1669432600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the data",
+            "match": {
+              "location": "SignupTest.user_enters_the_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "name",
+                  "email",
+                  "date of birth"
+                ]
+              },
+              {
+                "cells": [
+                  "user1",
+                  "1234",
+                  "John",
+                  "john@email.com",
+                  "1-January-1987"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77198000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124951700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should see a welcome message Welcome to your new profile page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to your new profile page",
+                  "offset": 34
+                }
+              ],
+              "location": "SignupTest.user_should_see_a_welcome_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:34:50.622Z",
+        "line": 14,
+        "name": "User shall not be able to sign up if username already exists",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-not-be-able-to-sign-up-if-username-already-exists",
+        "after": [
+          {
+            "result": {
+              "duration": 1389872100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7516353300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1850724400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters the data",
+            "match": {
+              "location": "SignupTest.user_enters_the_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "name",
+                  "email",
+                  "date of birth"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "1234",
+                  "admin",
+                  "admin@email.com",
+                  "26-May-2002"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146475900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88481100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should see a warning message This hero is already registered. Try another one!",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This hero is already registered. Try another one!",
+                  "offset": 34
+                }
+              ],
+              "location": "SignupTest.user_should_see_a_warning_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:35:01.615Z",
+        "line": 23,
+        "name": "User shall not be able to sign up if email is already registered",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-not-be-able-to-sign-up-if-email-is-already-registered",
+        "after": [
+          {
+            "result": {
+              "duration": 1515686200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7094752200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1773545000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters the data",
+            "match": {
+              "location": "SignupTest.user_enters_the_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "name",
+                  "email",
+                  "date of birth"
+                ]
+              },
+              {
+                "cells": [
+                  "user2",
+                  "1234",
+                  "admin",
+                  "a.admin@wearewaes.com",
+                  "28-December-1920"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53836200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111528500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user should see a warning message This hero is already registered. Try another one!",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This hero is already registered. Try another one!",
+                  "offset": 34
+                }
+              ],
+              "location": "SignupTest.user_should_see_a_warning_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:35:12.167Z",
+        "line": 40,
+        "name": "User shall inform all required fields to create a profile",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-all-required-fields-to-create-a-profile;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1585743300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7262743300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1575071900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters the data ,1234,John,john@email.com and 1-January-1987",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                },
+                {
+                  "val": "1234",
+                  "offset": 22
+                },
+                {
+                  "val": "John",
+                  "offset": 27
+                },
+                {
+                  "val": "john@email.com",
+                  "offset": 32
+                },
+                {
+                  "val": "1-January-1987",
+                  "offset": 51
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58157500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94808000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user should see a hint informing that the field username should be populated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 48
+                }
+              ],
+              "location": "SignupTest.user_should_see_a_hint(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:35:22.745Z",
+        "line": 41,
+        "name": "User shall inform all required fields to create a profile",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-all-required-fields-to-create-a-profile;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1800306000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7160966000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1774102900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters the data usern,,John,john@email.com and 1-January-1987",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usern",
+                  "offset": 21
+                },
+                {
+                  "val": "",
+                  "offset": 27
+                },
+                {
+                  "val": "John",
+                  "offset": 28
+                },
+                {
+                  "val": "john@email.com",
+                  "offset": 33
+                },
+                {
+                  "val": "1-January-1987",
+                  "offset": 52
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70936900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119280900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user should see a hint informing that the field password should be populated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 48
+                }
+              ],
+              "location": "SignupTest.user_should_see_a_hint(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:35:33.672Z",
+        "line": 42,
+        "name": "User shall inform all required fields to create a profile",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-all-required-fields-to-create-a-profile;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1337045500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7055983400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1979411200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters the data usern,1234,,john@email.com and 1-January-1987",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usern",
+                  "offset": 21
+                },
+                {
+                  "val": "1234",
+                  "offset": 27
+                },
+                {
+                  "val": "",
+                  "offset": 32
+                },
+                {
+                  "val": "john@email.com",
+                  "offset": 33
+                },
+                {
+                  "val": "1-January-1987",
+                  "offset": 52
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41626600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78208900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user should see a hint informing that the field name should be populated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name",
+                  "offset": 48
+                }
+              ],
+              "location": "SignupTest.user_should_see_a_hint(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:35:44.167Z",
+        "line": 43,
+        "name": "User shall inform all required fields to create a profile",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-all-required-fields-to-create-a-profile;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2119421500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8835074100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1629093200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters the data usern,1234,John, and 1-January-1987",
+            "match": {
+              "arguments": [
+                {
+                  "val": "usern",
+                  "offset": 21
+                },
+                {
+                  "val": "1234",
+                  "offset": 27
+                },
+                {
+                  "val": "John",
+                  "offset": 32
+                },
+                {
+                  "val": "",
+                  "offset": 37
+                },
+                {
+                  "val": "1-January-1987",
+                  "offset": 42
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55889500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121453900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user should see a hint informing that the field email should be populated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 48
+                }
+              ],
+              "location": "SignupTest.user_should_see_a_hint(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:35:56.930Z",
+        "line": 54,
+        "name": "User shall inform a valid date to sign up",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-a-valid-date-to-sign-up;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1364937000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8104513100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3390259700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user enters the data mary,pass123,Mary Smith,mary@email.com and 30-February-1990",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mary",
+                  "offset": 21
+                },
+                {
+                  "val": "pass123",
+                  "offset": 26
+                },
+                {
+                  "val": "Mary Smith",
+                  "offset": 34
+                },
+                {
+                  "val": "mary@email.com",
+                  "offset": 45
+                },
+                {
+                  "val": "30-February-1990",
+                  "offset": 64
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85278100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10536914900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user should not see a welcome message Welcome to your new profile page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to your new profile page",
+                  "offset": 38
+                }
+              ],
+              "location": "SignupTest.user_should_not_see_a_welcome_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:36:20.414Z",
+        "line": 55,
+        "name": "User shall inform a valid date to sign up",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-a-valid-date-to-sign-up;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1528904600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7025679200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2098383900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user enters the data mary,pass123,Mary Smith,mary@email.com and 31-June-2000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mary",
+                  "offset": 21
+                },
+                {
+                  "val": "pass123",
+                  "offset": 26
+                },
+                {
+                  "val": "Mary Smith",
+                  "offset": 34
+                },
+                {
+                  "val": "mary@email.com",
+                  "offset": 45
+                },
+                {
+                  "val": "31-June-2000",
+                  "offset": 64
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96407100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown.\r\n\tat org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:70)\r\n\tat org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:38)\r\n\tat org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:1155)\r\n\tat stepDefinitions.SignupTest.user_should_not_see_a_welcome_message(SignupTest.java:70)\r\n\tat ✽.user should not see a welcome message Welcome to your new profile page(file:src/test/resources/Signup.feature:50)\r\n",
+              "duration": 112449200,
+              "status": "failed"
+            },
+            "line": 50,
+            "name": "user should not see a welcome message Welcome to your new profile page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to your new profile page",
+                  "offset": 38
+                }
+              ],
+              "location": "SignupTest.user_should_not_see_a_welcome_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:36:31.287Z",
+        "line": 56,
+        "name": "User shall inform a valid date to sign up",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-a-valid-date-to-sign-up;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1357932300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6816808200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1776505200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user enters the data mary,pass123,Mary Smith,mary@email.com and 31-December-2019",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mary",
+                  "offset": 21
+                },
+                {
+                  "val": "pass123",
+                  "offset": 26
+                },
+                {
+                  "val": "Mary Smith",
+                  "offset": 34
+                },
+                {
+                  "val": "mary@email.com",
+                  "offset": 45
+                },
+                {
+                  "val": "31-December-2019",
+                  "offset": 64
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35707400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown.\r\n\tat org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:70)\r\n\tat org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:38)\r\n\tat org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:1155)\r\n\tat stepDefinitions.SignupTest.user_should_not_see_a_welcome_message(SignupTest.java:70)\r\n\tat ✽.user should not see a welcome message Welcome to your new profile page(file:src/test/resources/Signup.feature:50)\r\n",
+              "duration": 100685600,
+              "status": "failed"
+            },
+            "line": 50,
+            "name": "user should not see a welcome message Welcome to your new profile page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to your new profile page",
+                  "offset": 38
+                }
+              ],
+              "location": "SignupTest.user_should_not_see_a_welcome_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:36:41.378Z",
+        "line": 67,
+        "name": "User shall inform a valid email to sign up",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-a-valid-email-to-sign-up;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1701640000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7134500100,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2241133300,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user enters the data ggm1,pass123,Gladis,ggm1@email and 6-March-1964",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ggm1",
+                  "offset": 21
+                },
+                {
+                  "val": "pass123",
+                  "offset": 26
+                },
+                {
+                  "val": "Gladis",
+                  "offset": 34
+                },
+                {
+                  "val": "ggm1@email",
+                  "offset": 41
+                },
+                {
+                  "val": "6-March-1964",
+                  "offset": 56
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71995000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Expected org.openqa.selenium.TimeoutException to be thrown, but nothing was thrown.\r\n\tat org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:70)\r\n\tat org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:38)\r\n\tat org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:1155)\r\n\tat stepDefinitions.SignupTest.user_should_not_see_a_welcome_message(SignupTest.java:70)\r\n\tat ✽.user should not see a welcome message Welcome to your new profile page(file:src/test/resources/Signup.feature:63)\r\n",
+              "duration": 102026300,
+              "status": "failed"
+            },
+            "line": 63,
+            "name": "user should not see a welcome message Welcome to your new profile page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to your new profile page",
+                  "offset": 38
+                }
+              ],
+              "location": "SignupTest.user_should_not_see_a_welcome_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:36:52.633Z",
+        "line": 68,
+        "name": "User shall inform a valid email to sign up",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-a-valid-email-to-sign-up;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2262716400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7455104300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1795105600,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user enters the data ggm1,pass123,Gladis,ggm1.email.com and 6-March-1964",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ggm1",
+                  "offset": 21
+                },
+                {
+                  "val": "pass123",
+                  "offset": 26
+                },
+                {
+                  "val": "Gladis",
+                  "offset": 34
+                },
+                {
+                  "val": "ggm1.email.com",
+                  "offset": 41
+                },
+                {
+                  "val": "6-March-1964",
+                  "offset": 60
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123612900,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10397833000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user should not see a welcome message Welcome to your new profile page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to your new profile page",
+                  "offset": 38
+                }
+              ],
+              "location": "SignupTest.user_should_not_see_a_welcome_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:37:14.669Z",
+        "line": 69,
+        "name": "User shall inform a valid email to sign up",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-a-valid-email-to-sign-up;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1599802500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7633702800,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1915566600,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user enters the data ggm1,pass123,Gladis,@ggm1email.com and 6-March-1964",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ggm1",
+                  "offset": 21
+                },
+                {
+                  "val": "pass123",
+                  "offset": 26
+                },
+                {
+                  "val": "Gladis",
+                  "offset": 34
+                },
+                {
+                  "val": "@ggm1email.com",
+                  "offset": 41
+                },
+                {
+                  "val": "6-March-1964",
+                  "offset": 60
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54126800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10400870600,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user should not see a welcome message Welcome to your new profile page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to your new profile page",
+                  "offset": 38
+                }
+              ],
+              "location": "SignupTest.user_should_not_see_a_welcome_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-01T17:37:36.275Z",
+        "line": 70,
+        "name": "User shall inform a valid email to sign up",
+        "description": "",
+        "id": "test-the-sign-up-functionality-on-waesworks-webpage;user-shall-inform-a-valid-email-to-sign-up;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2722718400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignupTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7348850400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user is on the signup page",
+            "match": {
+              "location": "SignupTest.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2524197600,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user enters the data ggm1,pass123,Gladis,ggm1@email. and 6-March-1964",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ggm1",
+                  "offset": 21
+                },
+                {
+                  "val": "pass123",
+                  "offset": 26
+                },
+                {
+                  "val": "Gladis",
+                  "offset": 34
+                },
+                {
+                  "val": "ggm1@email.",
+                  "offset": 41
+                },
+                {
+                  "val": "6-March-1964",
+                  "offset": 57
+                }
+              ],
+              "location": "SignupTest.user_enters_the_data(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76504200,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "SignupTest.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10532772700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user should not see a welcome message Welcome to your new profile page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to your new profile page",
+                  "offset": 38
+                }
+              ],
+              "location": "SignupTest.user_should_not_see_a_welcome_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      }
+    ],
+    "name": "Test the sign up functionality on Waesworks webpage",
+    "description": "",
+    "id": "test-the-sign-up-functionality-on-waesworks-webpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Signup.feature",
+    "tags": [
+      {
+        "name": "@Signup",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -4,18 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ProfilePageFactory {
-	
-	private WebDriver driver;
-	private WebDriverWait wait;
+public class ProfilePageFactory extends BasePage{
 	
 	//Initializes the state of the driver
-	public ProfilePageFactory(WebDriver webDriver) {
-		driver = webDriver;
-		wait = new WebDriverWait(driver, 10);
+	public ProfilePageFactory(WebDriver driver) {
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -25,7 +19,7 @@ public class ProfilePageFactory {
 
 	
 	public String profileBodyText() {
-		return wait.until(ExpectedConditions.visibilityOf(profileBody)).getText();
+		return getText(profileBody);
 	}
 	
 	//TODO: Increment this class in order to be able to test user authorization

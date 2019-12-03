@@ -13,6 +13,7 @@ import com.google.common.base.Strings;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -25,10 +26,14 @@ import utils.Driver;
 public class SignupTest {
 	private WebDriver driver;
 
+	@Before("@Login")
+	public void before() {
+		driver = new Driver().getDriver();
+		new SignupPageFactory(driver).navigateToHomePage();
+	}
+	
 	@Given("^user is on the signup page$")
 	public void user_is_on_signup_page() {
-		driver = new Driver().getDriver();
-		driver.get("https://waesworks.bitbucket.io/");
 		new HeaderPageFactory(driver).clickSignUp();
 	}
 

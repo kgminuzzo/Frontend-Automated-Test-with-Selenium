@@ -1,24 +1,14 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class SignupPageFactory {
-	private WebDriver driver;
-	private WebDriverWait wait;
-	JavascriptExecutor js;
+public class SignupPageFactory extends BasePage{
 
-	public SignupPageFactory (WebDriver webDriver) {
-		driver = webDriver;
-		wait = new WebDriverWait(driver, 3);
-		js = (JavascriptExecutor) driver;
+	public SignupPageFactory (WebDriver driver) {
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 
@@ -47,53 +37,37 @@ public class SignupPageFactory {
 	@FindBy(id="submit_button")
 	WebElement submitButton;
 
-
 	//Actions	
 	public void setUsername(String username) {
-		wait.until(ExpectedConditions.visibilityOf(this.username)).sendKeys(username);
+		setText(this.username, username);
 	}
 
 	public void setPassword(String password) {
-		wait.until(ExpectedConditions.visibilityOf(this.password)).sendKeys(password);
+		setText(this.password, password);
 	}
 
 	public void setName(String name) {
-		wait.until(ExpectedConditions.visibilityOf(this.name)).sendKeys(name);
+		setText(this.name, name);
 	}
 
 	public void setEmail(String email) {
-		wait.until(ExpectedConditions.visibilityOf(this.email)).sendKeys(email);
+		setText(this.email, email);
 	}
 
 	public void setDayOfBirth(String day) {
-		try {
-			WebElement dropdown = wait.until(ExpectedConditions.visibilityOf(this.dayOfBirth));
-			dropdown.findElement(By.xpath("//option[. = '"+day+"']")).click();
-		}catch(NoSuchElementException e) {
-			System.out.println(day + " is not a valid day");
-		}
+		selectInDropdown(dayOfBirth, day);
 	}
 
 	public void setMonthOfBirth(String month) {
-		try {
-			WebElement dropdown = wait.until(ExpectedConditions.visibilityOf(this.monthOfBirth));
-			dropdown.findElement(By.xpath("//option[. = '"+month+"']")).click();
-		}catch(NoSuchElementException e) {
-			System.out.println(month + " is not a valid month");
-		}
+		selectInDropdown(monthOfBirth, month);
 	}
 
 	public void setYearOfBirth(String year) {
-		try {
-			WebElement dropdown = wait.until(ExpectedConditions.visibilityOf(this.yearOfBirth));
-			dropdown.findElement(By.xpath("//option[. = '"+year+"']")).click();
-		}catch(NoSuchElementException e) {
-			System.out.println(year + " is not a valid year");
-		}
+		selectInDropdown(yearOfBirth, year);
 	}
 
 	public void clickSubmitButton() {
-		js.executeScript("arguments[0].click();", submitButton);
+		clickButton(submitButton);
 	}
 
 	public void setDateOfBirth(String date) {
@@ -105,12 +79,8 @@ public class SignupPageFactory {
 		setDayOfBirth(dateOfBirth[2]);
 	}
 
-	public boolean isValidationMessageDisplayed(String fieldName) {  
-		return wait.until(ExpectedConditions.attributeToBeNotEmpty(getFieldByName(fieldName), "validationMessage"));		
-	}
-
 	public String validationMessage(String fieldName) {
-		return (isValidationMessageDisplayed(fieldName)? getFieldByName(fieldName).getAttribute("validationMessage") : "");
+		return getAttribute(getFieldByName(fieldName),"validationMessage");
 	}
 
 	private WebElement getFieldByName(String fieldName) {
